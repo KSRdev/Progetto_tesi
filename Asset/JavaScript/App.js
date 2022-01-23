@@ -231,6 +231,6 @@ const sr = ScrollReveal({
 });
 
 sr.reveal('.section__title, .section__subtitle, .about__data, .contact__container', {});
-sr.reveal('.home__socia, .home__img, .home__data, .about__img, .qualification__button', { delay: 500 });
-sr.reveal('.home__scroll', { interval: 300 });
+sr.reveal('.about__img, .qualification__button', { delay: 500 });
+sr.reveal('.home__scroll, .home__social-icon, .home__img, .home__data', { interval: 300 });
 sr.reveal('.about__description, .about__info, .about__buttons, .qualification__sections, .portfolio__container, .info_contact, .contact__information, .Portfolio__buttons', { interval: 400 });
