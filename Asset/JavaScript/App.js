@@ -166,7 +166,7 @@ window.onload = function() {
     setTimeout(function() {
         document.getElementById('body').style.opacity = "100";
         document.getElementById('fade').style.opacity = "100";
-    }, 200);
+    }, 600);
 }
 
 
@@ -219,3 +219,18 @@ function loop() {
 }
 
 loop()
+
+
+/*===== SCROLL REVEAL ANIMATION =====*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2000,
+    delay: 200,
+    reset: true
+});
+
+sr.reveal('.section__title, .section__subtitle, .about__data, .contact__container', {});
+sr.reveal('.home__socia, .home__img, .home__data, .about__img, .qualification__button', { delay: 500 });
+sr.reveal('.home__scroll', { interval: 300 });
+sr.reveal('.about__description, .about__info, .about__buttons, .qualification__sections, .portfolio__container, .info_contact, .contact__information, .Portfolio__buttons', { interval: 400 });
