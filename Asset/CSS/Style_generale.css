@@ -7,7 +7,6 @@
 :root {
     --header-height: 3rem;
     /*========== Colors ==========*/
-    /* Change favorite color */
     --hue-color: 240;
     --first-color: hsl(var(--hue-color), 82%, 51%);
     --first-color-second: hsl(var(--hue-color), 82%, 51%);
@@ -21,7 +20,6 @@
     --container-color: #fff;
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
-    /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
     --big-font-size: 2rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
@@ -33,7 +31,6 @@
     --font-medium: 500;
     --font-semi-bold: 600;
     /*========== Margins Bottom ==========*/
-    /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
     --mb-0-25: .25rem;
     --mb-0-5: .5rem;
     --mb-0-75: .75rem;
@@ -60,11 +57,6 @@
     padding: 0;
     margin: 0;
 }
-
-
-/*html {
-    scroll-behavior: smooth;
-}*/
 
 #body {
     opacity: 0;
@@ -151,11 +143,7 @@ img {
 
 /*========== Variables Dark theme ==========*/
 
-
-/* Change favorite color */
-
 body.dark-theme {
-    /* Change favorite color */
     --first-color-second: hsl(var(--hue-color), 30%, 8%);
     --title-color: hsl(var(--hue-color), 8%, 95%);
     --text-color: hsl(var(--hue-color), 8%, 75%);

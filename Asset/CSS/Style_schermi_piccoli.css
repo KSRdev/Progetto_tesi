@@ -64,11 +64,9 @@
     .nav__close:hover {
         color: var(--first-color-alt);
     }
-    /* show menu */
     .show__menu {
         bottom: 0;
     }
-    /* Change background header */
     .scroll-header {
         box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
     }
@@ -239,7 +237,6 @@
     .qualification__button.qualification__active {
         color: var(--first-color);
     }
-    /* ===== SKILLS =====*/
     /*==================== PORTFOLIO ====================*/
     .portfolio__card {
         position: relative;
@@ -482,11 +479,9 @@
     .nav__close:hover {
         color: var(--first-color-alt);
     }
-    /* show menu */
     .show__menu {
         bottom: 0;
     }
-    /* Change background header */
     .scroll-header {
         box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
     }
@@ -662,7 +657,6 @@
     .qualification__button.qualification__active {
         color: var(--first-color);
     }
-    /* ===== SKILLS =====*/
     /*==================== PORTFOLIO ====================*/
     .portfolio__card {
         position: relative;
