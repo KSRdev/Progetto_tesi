@@ -88,23 +88,15 @@ window.addEventListener('scroll', scrollUp)
 
 
 /*==================== SCROLL SMOOTH ====================*/
-$(document).ready(function() {
-    $("a.smooth").on('click', function(event) {
 
-        var hash = this.hash;
-        if (this.hash !== "1") {
-            event.preventDefault();
+var $root = $('html, body');
 
-            var hash = this.hash;
+$('a[href^="#"]').click(function() {
+    $root.animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
 
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top
-            }, 1500, function() {
-
-                window.location.hash = hash;
-            });
-        }
-    });
+    return false;
 });
 
 
