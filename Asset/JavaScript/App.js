@@ -137,7 +137,7 @@ window.onload = function() {
 
 /*==================== EFFECT TYPE ====================*/
 const textDisplay = document.getElementById('text')
-const phrases = ['I am Simone', 'I love to code.', 'My hobby is photography.']
+const phrases = ['Simone', 'a Developer', 'a Photographer']
 let i = 0
 let j = 0
 let currentPhrase = []
