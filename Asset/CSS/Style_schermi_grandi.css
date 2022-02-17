@@ -126,6 +126,9 @@
         width: 300px;
         fill: var(--first-color);
     }
+    #mask0 {
+        mask-type: alpha;
+    }
     .home__data {
         grid-column: 1/3;
         grid-column: initial;
